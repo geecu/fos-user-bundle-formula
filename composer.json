@@ -1,0 +1,19 @@
+{
+  "name": "gk/fos-user-bundle-formula",
+  "type": "symfony-bundle-utils-formula",
+  "description": "Install/configure formula for friendsofsymfony/user-bundle",
+  "authors": [
+    {
+      "name": "Gunther Konig",
+      "email": "gunther.s.konig@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {"Gk\\FOSUserBundleFormula\\": "src"}
+  },
+  "require": {},
+  "extra": {
+    "sfbu-installer": "\\Gk\\FOSUserBundleFormula\\Installer",
+    "sfbu-bundle": "friendsofsymfony/user-bundle"
+  }
+}
