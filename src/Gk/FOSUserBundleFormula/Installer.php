@@ -2,7 +2,7 @@
 
 namespace Gk\FOSUserBundleFormula;
 
-class Installer implements \Gk\SymfonyBundleInstaller\Installer\InstallerInterface
+class Installer extends \Gk\SymfonyBundleInstaller\Installer\AbstractInstaller
 {
     public function getSteps()
     {
