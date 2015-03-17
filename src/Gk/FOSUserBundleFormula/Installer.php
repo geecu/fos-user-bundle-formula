@@ -8,8 +8,8 @@ class Installer extends \Gk\SymfonyBundleInstaller\Installer\AbstractInstaller
     {
         return [
             'install:bundle',
-            'install:kernel',
-            'install:routing'
+            //'install:kernel',
+            //'install:routing'
         ];
     }
 }
